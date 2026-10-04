@@ -1,5 +1,5 @@
 
-# AI-STE - A Simplified Technical English for Agentic Transactions
+# AI-STE - Simplified Technical English for Agentic Transactions
 
 Announcing my project **AI-STE**! It defines a set of rules and vocabularies in Simplified Technical English for precise agentic transactions.
 
