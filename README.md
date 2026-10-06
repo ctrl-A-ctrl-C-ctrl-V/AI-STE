@@ -1,7 +1,9 @@
 
 # AI-STE - Simplified Technical English for Agentic Transactions
 
-Announcing my project **AI-STE**! It defines a set of rules and vocabularies in Simplified Technical English for precise agentic transactions.
+## Introduction
+
+**AI-STE** defines a set of rules and vocabularies in Simplified Technical English for precise agentic transactions.
 
 For the last few years, the industry focus has been on how to instruct an LLM to do what we want by specifying problem statements precisely. From the heyday of prompt engineering to today's reasoning-driven agentic answers, the precision of the _input problem statement_ has always been emphasized—and for good reasons. What has been missing, though, is a clear definition of _precision_ in such cases.
 
@@ -15,6 +17,8 @@ Also, while adopting a working standard from another field is a great start, wha
 
 My project, **AI-STE**, attempts to answer these questions. It introduces a Simplified Technical English tailored for the AI/ML world, adopting useful rules from ASD-STE100 while establishing new ones specific to AI/ML. It can be used for both inputs to an AI/ML artifact (such as an agent) and outputs from it.
 
-Current version: 0.4
+## Files
 
-Critics and feedback are welcome!
+* README.md: this file.
+* ai_ste_standard.md: the latest version of the standard.
+  
