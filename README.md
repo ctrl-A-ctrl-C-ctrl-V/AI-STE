@@ -21,4 +21,5 @@ My project, **AI-STE**, attempts to answer these questions. It introduces a Simp
 
 * README.md: this file.
 * ai_ste_standard.md: the latest version of the standard.
+* changelog (directory): log of changes for various changes.
   
