@@ -1,4 +1,4 @@
-# AI-STE: Simplified Technical English for AI Orchestration (v5.1)
+# AI-STE: Simplified Technical English for AI Orchestration (v0.5.2)
 
 ## Document Overview
 
@@ -25,7 +25,7 @@ ASD-STE100 came from a request of the aviation industry in the late 1970s. Its a
 
 *   **Rule numbers match.** Rules 1.1 to 9.4 of AI-STE have the same numbers and topics as Rules 1.1 to 9.4 of ASD-STE100 Issue 9 (53 rules in 9 sections). Appendix A gives the status of each rule.
 *   **AI-specific rules** continue the numbering of their section after the last ASD rule (for example, Rule 5.6).
-*   **Deliberate differences** are tagged `[DEV]` or `[ASD+]`. Appendix B lists each AI-STE word that conflicts with an approved meaning in ASD-STE100.
+*   **Deliberate differences** are listed with tag `[DEV]` or `[ASD+]` in the Rule Tag Reference table. Appendix B lists each AI-STE word that conflicts with an approved meaning in ASD-STE100.
 
 | Part | Sections | Content |
 | :--- | :--- | :--- |
@@ -51,13 +51,97 @@ ASD-STE100 came from a request of the aviation industry in the late 1970s. Its a
 | `[DEV]` | Deliberate deviation from ASD-STE100 |
 | `[AI]` | AI-specific rule with no ASD-STE100 equivalent |
 
+## Rule Tag Reference
+
+Each rule is tagged to show its relationship to ASD-STE100 Issue 9.
+See the *Rule Tags* legend in the Document Overview.
+
+| Rule | Title | Tag |
+| :--- | :--- | :--- |
+| **Section 1: Words** | | |
+| 1.1 | Which Words You Can Use | `[ASD]` |
+| 1.2 | Part of Speech | `[ASD]` |
+| 1.3 | Approved Meaning | `[ASD]` |
+| 1.4 | Forms of Verbs and Adjectives | `[ASD]` |
+| 1.5 | Technical Nouns | `[ASD]` |
+| 1.6 | Words That Are Not Approved | `[ASD]` |
+| 1.7 | Technical Nouns as Verbs | `[ASD]` |
+| 1.8 | Approved Technical Nouns | `[ASD]` |
+| 1.9 | Short Technical Nouns | `[ASD]` |
+| 1.10 | No Regional, Slang, or Jargon Words | `[ASD]` |
+| 1.11 | One Technical Noun for One Item | `[ASD]` |
+| 1.12 | Technical Verbs | `[ASD]` |
+| 1.13 | Technical Verbs as Nouns | `[ASD]` |
+| 1.14 | American English Spelling | `[ASD]` |
+| 1.15 | Prohibited Alternatives | `[AI]` |
+| **Section 2: Multi-Word Nouns** | | |
+| 2.1 | Maximum Three Words | `[ASD]` |
+| 2.2 | Long Technical Nouns | `[ASD]` |
+| **Section 3: Verbs** | | |
+| 3.1 | Verb Forms | `[ASD]` |
+| 3.2 | Permitted Tenses | `[ASD]` |
+| 3.3 | Past Participle as an Adjective | `[ASD]` |
+| 3.4 | No Auxiliary Verbs for Complex Constructions | `[ASD]` |
+| 3.5 | "-ing" Forms | `[ASD]` |
+| 3.6 | Active Voice | `[ASD]` |
+| 3.7 | Use a Verb to Describe an Action | `[ASD]` |
+| **Section 4: Sentences** | | |
+| 4.1 | Short and Clear Sentences | `[ASD]` |
+| 4.2 | Do Not Omit Words | `[ASD]` |
+| 4.3 | Vertical Lists | `[ASD]` |
+| 4.4 | Connecting Words | `[ASD]` |
+| 4.5 | Articles and Demonstrative Adjectives | `[ASD]` |
+| **Section 5: Procedural Writing** | | |
+| 5.1 | Maximum 20 Words | `[ASD]` |
+| 5.2 | One Instruction in Each Sentence | `[ASD]` |
+| 5.3 | Imperative Form | `[ASD+]` |
+| 5.4 | Condition First | `[ASD]` |
+| 5.5 | Notes | `[ASD]` |
+| 5.6 | Name Every Result | `[AI]` |
+| **Section 6: Descriptive Writing** | | |
+| 6.1 | Give Information Gradually | `[ASD]` |
+| 6.2 | Key Words and Key Phrases | `[ASD]` |
+| 6.3 | Maximum 25 Words | `[ASD]` |
+| 6.4 | Paragraphs | `[ASD]` |
+| 6.5 | One Topic | `[ASD]` |
+| 6.6 | Maximum Six Sentences | `[ASD]` |
+| 6.7 | Where Descriptive Text Appears | `[AI]` |
+| 6.8 | Separate Fact from Command | `[ASD]` |
+| **Section 7: Safety Instructions** | | |
+| 7.1 | Identify the Level of Risk | `[ASD]` |
+| 7.2 | Start with a Clear Command or Condition | `[ASD]` |
+| 7.3 | Explain the Risk | `[ASD]` |
+| 7.4 | Place the Safety Instruction Before the Step | `[AI]` |
+| 7.5 | Give an Alternative | `[AI]` |
+| 7.6 | Enforce Critical Limits Outside the Prompt | `[AI]` |
+| **Section 8: Punctuation and Word Count** | | |
+| 8.1 | No Semicolons | `[ASD]` |
+| 8.2 | Hyphens | `[ASD]` |
+| 8.3 | Parentheses | `[ASD]` |
+| 8.4 | Colon in a Vertical List | `[ASD]` |
+| 8.5 | Text in Parentheses | `[ASD]` |
+| 8.6 | Count as One Word | `[ASD]` |
+| 8.7 | Hyphenated Words | `[ASD]` |
+| 8.8 | Notation | `[AI]` |
+| 8.9 | All-Caps Keywords | `[AI]` |
+| 8.10 | Delimit Untrusted Data | `[AI]` |
+| **Section 9: Writing Practices** | | |
+| 9.1 | Use a Different Sentence Construction | `[ASD]` |
+| 9.2 | Use Each Approved Word Correctly | `[ASD]` |
+| 9.3 | No Phrasal Verbs | `[ASD]` |
+| 9.4 | Consistent Style | `[ASD]` |
+| 9.5 | Pronouns | `[ASD+]` |
+| 9.6 | Latin Abbreviations | `[AI]` |
+| 9.7 | Gender-Neutral Language | `[ASD]` |
+| 9.8 | Literal Payload | `[AI]` |
+
 ---
 
 # PART 1: WRITING RULES
 
 ## Section 1: Words
 
-### Rule 1.1: Which Words You Can Use `[ASD]`
+### Rule 1.1: Which Words You Can Use
 Use only words from these layers:
 
 | Layer | Source |
@@ -68,64 +152,64 @@ Use only words from these layers:
 
 A Layer 2 word that ASD-STE100 does not approve is a technical noun or a technical verb in ASD-STE100 terms. A Layer 3 word is always a technical noun or a technical verb. If a Layer 2 word has a different approved meaning in ASD-STE100, the AI-STE meaning applies in AI-STE text (Appendix B).
 
-### Rule 1.2: Part of Speech `[ASD]`
+### Rule 1.2: Part of Speech
 Use each approved word only as its specified part of speech.
 
 *   *Unapproved:* "REPORT the ERROR to the USER." (*In ASD-STE100, REPORT is a noun only.*)
 *   *Approved:* "TELL the USER about the ERROR."
 
-### Rule 1.3: Approved Meaning `[ASD]`
+### Rule 1.3: Approved Meaning
 Use each word only with its approved meaning. Section 14 gives the AI-STE meaning of each Layer 2 word.
 
-### Rule 1.4: Forms of Verbs and Adjectives `[ASD]`
+### Rule 1.4: Forms of Verbs and Adjectives
 Use only the approved forms of verbs and adjectives. A Layer 2 verb has these forms: base form, `-S` form, and `-ED` form (for example, PARSE, PARSES, PARSED).
 
-### Rule 1.5: Technical Nouns `[ASD]`
+### Rule 1.5: Technical Nouns
 Use a noun that is not in the dictionary only if it is a technical noun. Declare each technical noun for your domain in a `DEFINITIONS` block (Section 13). ASD-STE100 lists computer science and information technology as one category of technical nouns.
 
-### Rule 1.6: Words That Are Not Approved `[ASD]`
+### Rule 1.6: Words That Are Not Approved
 Use a word that is not approved only when it is a technical noun or part of a technical noun.
 
-### Rule 1.7: Technical Nouns as Verbs `[ASD]`
+### Rule 1.7: Technical Nouns as Verbs
 Do not use a technical noun as a verb.
 
 *   *Unapproved:* "Prompt the LLM with the STRING."
 *   *Approved:* "ROUTE the PROMPT to the LLM."
 
-### Rule 1.8: Approved Technical Nouns `[ASD]`
+### Rule 1.8: Approved Technical Nouns
 If your organization or domain has a technical noun for an item, use that noun.
 
-### Rule 1.9: Short Technical Nouns `[ASD]`
+### Rule 1.9: Short Technical Nouns
 Select a technical noun of not more than three words that is easy to understand.
 
-### Rule 1.10: No Regional, Slang, or Jargon Words `[ASD]`
+### Rule 1.10: No Regional, Slang, or Jargon Words
 Do not use regional, slang, or jargon words as technical nouns or technical verbs.
 
 *   *Unapproved:* "The USER can jailbreak the AGENT."
 *   *Approved:* "The USER can cause the AGENT to break a GUARDRAIL."
 
-### Rule 1.11: One Technical Noun for One Item `[ASD]`
+### Rule 1.11: One Technical Noun for One Item
 Do not use different technical nouns for the same item in a text.
 
 *   *Unapproved:* "VALIDATE the Stripe_Invoice. STORE the Billing_Document."
 *   *Approved:* "VALIDATE the Stripe_Invoice. STORE the Stripe_Invoice."
 
-### Rule 1.12: Technical Verbs `[ASD]`
+### Rule 1.12: Technical Verbs
 Use a verb that is not in the dictionary only if it is a technical verb. Declare each technical verb for your domain in a `DEFINITIONS` block. Do not use a technical verb if an approved verb gives the same instruction accurately. Technical verbs follow the same rules as approved verbs (Section 3).
 
-### Rule 1.13: Technical Verbs as Nouns `[ASD]`
+### Rule 1.13: Technical Verbs as Nouns
 Do not use a technical verb as a noun or as a noun modifier.
 
 *   *Unapproved:* "Do the PARSE of the STRING." / "IF the PARSE action returns an ERROR..."
 *   *Approved:* "PARSE the STRING." / "IF `[parse_result]` is an ERROR..."
 
-### Rule 1.14: American English Spelling `[ASD]`
+### Rule 1.14: American English Spelling
 Use American English spelling.
 
 *   *Unapproved:* "ANALYSE the DATA."
 *   *Approved:* "ANALYZE the DATA."
 
-### Rule 1.15: Prohibited Alternatives `[AI]`
+### Rule 1.15: Prohibited Alternatives
 The *Prohibited Alternatives* column in Section 14 lists words that you must not use **with the meaning of** the Layer 2 word. This applies even if ASD-STE100 approves the word (marked †). The word is not prohibited with its other approved meanings. For example, *when* is not a condition keyword in AI-STE, but it can connect time in a description. This rule gives one word for one meaning.
 
 *   *Unapproved:* "Fetch the DATA."
@@ -135,40 +219,40 @@ The *Prohibited Alternatives* column in Section 14 lists words that you must not
 
 ## Section 2: Multi-Word Nouns
 
-### Rule 2.1: Maximum Three Words `[ASD]`
+### Rule 2.1: Maximum Three Words
 Write a multi-word noun of not more than three words. A multi-word noun is a group of nouns and adjectives that works as one noun. In a long group, it is not clear which word modifies which.
 
 *   *Unapproved:* "User session context history memory buffer size limit." (8 words)
 *   *Approved:* "The MEMORY limit for one USER."
 
-### Rule 2.2: Long Technical Nouns `[ASD]`
+### Rule 2.2: Long Technical Nouns
 If a technical noun has more than three words, write it in full in the `DEFINITIONS` block. Then use a shorter form, or use hyphens or underscores to join the words of one unit.
 
 ---
 
 ## Section 3: Verbs
 
-### Rule 3.1: Verb Forms `[ASD]`
+### Rule 3.1: Verb Forms
 Use only the verb forms that the dictionary gives (Rule 1.4).
 
-### Rule 3.2: Permitted Tenses `[ASD]`
+### Rule 3.2: Permitted Tenses
 Use only these forms: infinitive, imperative, simple present, simple past, simple future, and past participle as an adjective. Do not use progressive or perfect tenses.
 
 *   *Unapproved:* "The AGENT has retrieved the DATA."
 *   *Approved:* "The AGENT retrieved the DATA."
 
-### Rule 3.3: Past Participle as an Adjective `[ASD]`
+### Rule 3.3: Past Participle as an Adjective
 Use the past participle only as an adjective. Put it before a noun or after *be*, *become*, or *stay*.
 
 *   *Approved:* "Use the VALIDATED DATA."
 
-### Rule 3.4: No Auxiliary Verbs for Complex Constructions `[ASD]`
+### Rule 3.4: No Auxiliary Verbs for Complex Constructions
 Do not use an auxiliary verb with a past participle to make a complex verb construction.
 
 *   *Unapproved:* "The DATA can be validated by the SKILL."
 *   *Approved:* "The SKILL VALIDATES the DATA."
 
-### Rule 3.5: "-ing" Forms `[ASD]`
+### Rule 3.5: "-ing" Forms
 Use the *-ing* form of a verb only as a technical noun or as a modifier in a technical noun. A word that is not a verb form and only ends in *-ing* (for example, STRING) is not affected.
 
 *   *Unapproved:* "When processing the DATA, start checking for errors."
@@ -176,14 +260,14 @@ Use the *-ing* form of a verb only as a technical noun or as a modifier in a tec
     1. PARSE the DATA.
     2. VALIDATE the DATA.
 
-### Rule 3.6: Active Voice `[ASD]`
+### Rule 3.6: Active Voice
 Use the active voice. In descriptive text, use the passive voice only if the agent is unknown.
 
 *   *Unapproved:* "The TOOL is executed by the SKILL."
 *   *Approved:* "The SKILL EXECUTES the TOOL."
 *   *Approved (agent unknown):* "The MEMORY was deleted."
 
-### Rule 3.7: Use a Verb to Describe an Action `[ASD]`
+### Rule 3.7: Use a Verb to Describe an Action
 Use an approved verb to describe an action. Do not use a noun in its place.
 
 *   *Unapproved:* "Do a validation of the DATA."
@@ -193,16 +277,16 @@ Use an approved verb to describe an action. Do not use a noun in its place.
 
 ## Section 4: Sentences
 
-### Rule 4.1: Short and Clear Sentences `[ASD]`
+### Rule 4.1: Short and Clear Sentences
 Write short and clear sentences. The maximum length is 20 words in an instruction (Rule 5.1) and 25 words in a description (Rule 6.3). Section 8 gives the word count method.
 
-### Rule 4.2: Do Not Omit Words `[ASD]`
+### Rule 4.2: Do Not Omit Words
 Do not omit words to make a sentence shorter. Do not omit the subject or an article. Do not use contractions.
 
 *   *Unapproved:* "Validate DATA, tell USER if bad."
 *   *Approved:* "VALIDATE the DATA. IF the DATA is NOT VALID, TELL the USER about the ERROR."
 
-### Rule 4.3: Vertical Lists `[ASD]`
+### Rule 4.3: Vertical Lists
 Use a vertical list for a complex text.
 *   Put a colon at the end of the sentence before the list.
 *   Start each item with an uppercase letter.
@@ -216,12 +300,12 @@ Use a vertical list for a complex text.
     - The number
     ```
 
-### Rule 4.4: Connecting Words `[ASD]`
+### Rule 4.4: Connecting Words
 In a description, use connecting words to connect related sentences. Examples are *and*, *but*, *then*, and *thus*.
 
 *   *Approved:* "The TOOL gives the DATA. Thus, the SKILL can VALIDATE the DATA."
 
-### Rule 4.5: Articles and Demonstrative Adjectives `[ASD]`
+### Rule 4.5: Articles and Demonstrative Adjectives
 Use an article (*the*, *a*, *an*) or a demonstrative adjective (*this*, *these*) before a noun when it is applicable. Do not use an article in a general statement.
 
 *   *Unapproved:* "VALIDATE INPUT."
@@ -231,17 +315,17 @@ Use an article (*the*, *a*, *an*) or a demonstrative adjective (*this*, *these*)
 
 ## Section 5: Procedural Writing (Workflows and Tasks)
 
-### Rule 5.1: Maximum 20 Words `[ASD]`
+### Rule 5.1: Maximum 20 Words
 Write a maximum of 20 words in each instruction sentence. A `GUARDRAIL` and a `CAUTION` also follow this limit. A `NOTE` has a limit of 25 words (Rule 5.5).
 
-### Rule 5.2: One Instruction in Each Sentence `[ASD]`
+### Rule 5.2: One Instruction in Each Sentence
 Write one instruction in each sentence. Show the sequence of steps with numbers. Use one sentence for two instructions only if the two actions occur at the same time.
 
 *   *Unapproved:* "PARSE the INPUT, EXTRACT the `[user_id]`, and VALIDATE the `[user_id]`."
 *   *Approved:* "PARSE the INPUT. EXTRACT the `[user_id]`. VALIDATE the `[user_id]`."
 *   *Approved (actions at the same time):* "ROUTE the DATA to the SKILL Parse_Data and WAIT for the OUTPUT."
 
-### Rule 5.3: Imperative Form `[ASD+]`
+### Rule 5.3: Imperative Form
 Write each instruction in the imperative form. Do not use a modal verb in an instruction. Do not use *must* before an imperative, unless the instruction is a `GUARDRAIL` or an important condition. ASD-STE100 approves *can*, *will*, and *must*. It does not approve *should*, *may*, or *would*.
 
 *   *Unapproved:* "The DATA should be validated."
@@ -249,13 +333,13 @@ Write each instruction in the imperative form. Do not use a modal verb in an ins
 *   *Unapproved:* "The AGENT might ASK the USER for a `[date]`."
 *   *Approved:* "ASK the USER for a `[date]`. The `[date]` is OPTIONAL."
 
-### Rule 5.4: Condition First `[ASD]`
+### Rule 5.4: Condition First
 When the reader must know a condition first, start the sentence with the condition. Then write a comma and the instruction. Use the keyword `IF` for a condition.
 
 *   *Unapproved:* "STOP the TASK if `[data]` is NULL."
 *   *Approved:* "IF `[data]` is NULL, STOP the TASK."
 
-*Additional AI-STE requirements `[AI]`:*
+*Additional AI-STE requirements:*
 *   Write each branch as its own `IF` sentence with its complete condition. Do not use `ELSE`.
 *   Make the conditions of the branches exclusive.
 *   Do not put an `IF` sentence inside another `IF` sentence. Use separate numbered steps.
@@ -265,13 +349,13 @@ When the reader must know a condition first, start the sentence with the conditi
     IF `[data]` is NOT NULL, ROUTE `[data]` to the SKILL Parse_Data.
     ```
 
-### Rule 5.5: Notes `[ASD]`
+### Rule 5.5: Notes
 Write a `NOTE` to give information only. A `NOTE` has no instruction, no requirement, and no limit. Do not use the imperative form in a `NOTE`. Write a `NOTE` only in a procedure, after the step that it explains. Each sentence in a `NOTE` has a maximum of 25 words. Do this test: read the steps without the notes. The reader must be able to do the steps correctly.
 
 *   *Approved:* "NOTE: The `[user_data]` is NULL for a new USER."
 *   *Unapproved:* "NOTE: ASK the USER again." (*This is an instruction. Write it as a step.*)
 
-### Rule 5.6: Name Every Result `[AI]`
+### Rule 5.6: Name Every Result
 If a later step uses the result of a step, the first step must `STORE` the result in a named variable. The later step must use the name of the variable.
 
 *   *Approved:*
@@ -282,28 +366,28 @@ If a later step uses the result of a step, the first step must `STORE` the resul
 
 ## Section 6: Descriptive Writing (System Context)
 
-### Rule 6.1: Give Information Gradually `[ASD]`
+### Rule 6.1: Give Information Gradually
 Start with the primary information. Then add more information step by step.
 
-### Rule 6.2: Key Words and Key Phrases `[ASD]`
+### Rule 6.2: Key Words and Key Phrases
 Use the same key words and key phrases again to connect related sentences. Do not change them. Connecting words show if information is new, different, or a result.
 
-### Rule 6.3: Maximum 25 Words `[ASD]`
+### Rule 6.3: Maximum 25 Words
 Write a maximum of 25 words in each descriptive sentence.
 
-### Rule 6.4: Paragraphs `[ASD]`
+### Rule 6.4: Paragraphs
 Use paragraphs to show related information. Start each paragraph with a topic sentence.
 
-### Rule 6.5: One Topic `[ASD]`
+### Rule 6.5: One Topic
 Write one topic in each paragraph.
 
-### Rule 6.6: Maximum Six Sentences `[ASD]`
+### Rule 6.6: Maximum Six Sentences
 Write a maximum of six sentences in each paragraph.
 
-### Rule 6.7: Where Descriptive Text Appears `[AI]`
+### Rule 6.7: Where Descriptive Text Appears
 Write descriptive text only in the `CONTEXT` field of an `AGENT` definition (Section 10). Do not put a `NOTE` in the `CONTEXT` field.
 
-### Rule 6.8: Separate Fact from Command `[ASD]`
+### Rule 6.8: Separate Fact from Command
 Descriptive text gives information. It does not use the imperative form. Do not mix a fact and a command in one sentence.
 
 *   *Unapproved:* "The `[user_data]` is NULL for a new USER, so RETRIEVE the DATA again."
@@ -315,7 +399,7 @@ Descriptive text gives information. It does not use the imperative form. Do not 
 
 *(ASD-STE100 Section 7 defines a warning as a risk of injury or death, and a caution as a risk of damage to objects. It permits other words if the safety instruction obeys Rules 7.1 to 7.3.)*
 
-### Rule 7.1: Identify the Level of Risk `[ASD]`
+### Rule 7.1: Identify the Level of Risk
 Use a keyword to show the level of risk.
 
 | Keyword | Use | ASD-STE100 equivalent |
@@ -325,10 +409,10 @@ Use a keyword to show the level of risk.
 
 If the two levels of risk occur together, use `GUARDRAIL`.
 
-### Rule 7.2: Start with a Clear Command or Condition `[ASD]`
+### Rule 7.2: Start with a Clear Command or Condition
 Start a safety instruction with a clear command or condition. Use this syntax: `GUARDRAIL: DO NOT <step>.` The word `DO NOT` is the only approved prohibition. The `NOT` operator (Section 14.5) is for conditions only.
 
-### Rule 7.3: Explain the Risk `[ASD]`
+### Rule 7.3: Explain the Risk
 If it is possible, write a sentence that gives the risk or the possible result.
 
 *   *Unapproved:* "GUARDRAIL: DO NOT include a password in the OUTPUT."
@@ -338,13 +422,13 @@ If it is possible, write a sentence that gives the risk or the possible result.
     The OUTPUT can show the password to a different USER.
     ```
 
-### Rule 7.4: Place the Safety Instruction Before the Step `[AI]`
+### Rule 7.4: Place the Safety Instruction Before the Step
 ASD-STE100 does not state where a safety instruction goes in relation to the step. In AI-STE, put each `GUARDRAIL` and `CAUTION` **before** the step that it limits.
 
 *   **Scope:** A `GUARDRAIL` before a `TASK` or step applies to that `TASK` or step. A `GUARDRAIL` in an `AGENT` header applies to every `TASK` of the `AGENT`.
 *   **Reason:** An orchestrator can run a workflow one step at a time. A limit that follows a step can arrive after the step. An LLM reads the whole prompt before it generates, so position does not give a guarantee. Position only reduces the number of missed limits.
 
-### Rule 7.5: Give an Alternative `[AI]`
+### Rule 7.5: Give an Alternative
 If a permitted alternative exists, write it on the next line with the keyword `ALTERNATIVE:`.
 
 *   *Approved:*
@@ -354,37 +438,37 @@ If a permitted alternative exists, write it on the next line with the keyword `A
     ALTERNATIVE: Use the STRING `[REDACTED]`.
     ```
 
-### Rule 7.6: Enforce Critical Limits Outside the Prompt `[AI]`
+### Rule 7.6: Enforce Critical Limits Outside the Prompt
 Prompt text is not a security boundary. Enforce each critical `GUARDRAIL` with a permission, a filter, or validation code.
 
 ---
 
 ## Section 8: Punctuation and Word Count
 
-### Rule 8.1: No Semicolons `[ASD]`
+### Rule 8.1: No Semicolons
 Use all standard punctuation marks, but not the semicolon. Use two sentences.
 
-### Rule 8.2: Hyphens `[ASD]`
+### Rule 8.2: Hyphens
 Use hyphens to connect words that are directly related. A declared term can use underscores for the same purpose (Rule 8.8).
 
-### Rule 8.3: Parentheses `[ASD]`
-Use parentheses for references, identifiers, step numbers, abbreviations, singular and plural forms, brief explanations, and alternatives. `[AI]` A text in parentheses must not contain an instruction or a `GUARDRAIL`.
+### Rule 8.3: Parentheses
+Use parentheses for references, identifiers, step numbers, abbreviations, singular and plural forms, brief explanations, and alternatives. A text in parentheses must not contain an instruction or a `GUARDRAIL`.
 
-### Rule 8.4: Colon in a Vertical List `[ASD]`
+### Rule 8.4: Colon in a Vertical List
 In a vertical list, a colon has the same effect on word count as a period. Each item in the list counts as a new sentence.
 
-### Rule 8.5: Text in Parentheses `[ASD]`
+### Rule 8.5: Text in Parentheses
 A text in parentheses counts as one word in its sentence. The words in the parentheses count as a different sentence.
 
-### Rule 8.6: Count as One Word `[ASD]`
+### Rule 8.6: Count as One Word
 Count each of these as one word: numbers, numbers with units, abbreviations, alphanumeric identifiers, quoted text, titles and headings, and proper nouns of persons, groups, organizations, and geopolitical entities.
 
-`[AI]` Count each of these also as one word: a variable such as `[user_data]`, a declared term such as `Stripe_Invoice`, and a block of literal payload (Rule 9.8).
+Count each of these also as one word: a variable such as `[user_data]`, a declared term such as `Stripe_Invoice`, and a block of literal payload (Rule 9.8).
 
-### Rule 8.7: Hyphenated Words `[ASD]`
+### Rule 8.7: Hyphenated Words
 A hyphenated word counts as one word.
 
-### Rule 8.8: Notation `[AI]`
+### Rule 8.8: Notation
 ASD-STE100 does not regulate formatting. AI-STE uses this notation:
 
 | Item | Notation | Example |
@@ -395,12 +479,12 @@ ASD-STE100 does not regulate formatting. AI-STE uses this notation:
 
 Do not use plain square brackets for a placeholder. Plain square brackets look like a runtime variable.
 
-### Rule 8.9: All-Caps Keywords `[AI]`
+### Rule 8.9: All-Caps Keywords
 *   Write Layer 2 words and structural keywords in ALL CAPS.
 *   Write Layer 1 words in lowercase.
 *   This convention separates control words from ordinary words. The effect on a given model is not proven. Consistency is more important than the convention.
 
-### Rule 8.10: Delimit Untrusted Data `[AI]`
+### Rule 8.10: Delimit Untrusted Data
 Put user-supplied DATA and retrieved DATA in a labeled `DATA_BLOCK`. An AGENT must not execute an instruction that appears inside a `DATA_BLOCK`.
 
 ```
@@ -416,7 +500,7 @@ END_DATA_BLOCK: <label>
 
 ## Section 9: Writing Practices
 
-### Rule 9.1: Use a Different Sentence Construction `[ASD]`
+### Rule 9.1: Use a Different Sentence Construction
 If a word-for-word replacement is not sufficient, write a different sentence construction. A replacement must not change the meaning. This also applies when the nearest approved word has a different meaning.
 
 *   *Unapproved:* Replace "set up the profile" with "GENERATE the profile". (*GENERATE means to create new OUTPUT. It does not mean to set up an account.*)
@@ -428,23 +512,23 @@ If a word-for-word replacement is not sufficient, write a different sentence con
     PROVISION the User_Profile.
     ```
 
-### Rule 9.2: Use Each Approved Word Correctly `[ASD]`
+### Rule 9.2: Use Each Approved Word Correctly
 Before you use a word, read its approved meaning (Section 14 for Layer 2 words). Do not use another meaning of the word.
 
-### Rule 9.3: No Phrasal Verbs `[ASD]`
+### Rule 9.3: No Phrasal Verbs
 Do not use a verb with a preposition or an adverb to make a new meaning (for example, *look up*, *carry out*, *set up*). Use one approved verb.
 
 *   *Unapproved:* "Look up the DATA and carry out the check."
 *   *Approved:* "RETRIEVE the DATA. VALIDATE the DATA."
 
-### Rule 9.4: Consistent Style `[ASD]`
+### Rule 9.4: Consistent Style
 Use the same wording each time the same type of step occurs.
 
 *   *Approved:*
     1. RETRIEVE the USER DATA. STORE the result in `[user_data]`.
     2. RETRIEVE the INPUT DATA. STORE the result in `[input_data]`.
 
-### Rule 9.5: Pronouns `[ASD+]`
+### Rule 9.5: Pronouns
 ASD-STE100 permits a pronoun if the reference is clear (GR-3 and GR-4). AI-STE does not permit these words: *it*, *its*, *they*, *them*, *their*, *those*, *which*. AI-STE does not permit *this*, *these*, and *that* as pronouns. A demonstrative adjective before a noun is permitted (Rule 4.5). Repeat the noun or the name of the variable. This rule makes the text longer. It removes a class of reference errors in long contexts and in multi-agent files.
 
 *   Use *you* or *we* only if one reader or one writer exists. In a file with more than one `AGENT`, use the name of the `AGENT`.
@@ -455,13 +539,13 @@ ASD-STE100 permits a pronoun if the reference is clear (GR-3 and GR-4). AI-STE d
     2. IF `[parse_result]` is an ERROR, TELL the USER about the ERROR.
     ```
 
-### Rule 9.6: Latin Abbreviations `[AI]`
+### Rule 9.6: Latin Abbreviations
 ASD-STE100 recommends against Latin abbreviations (GR-6). AI-STE does not permit them (for example, *e.g.*, *i.e.*, *etc.*). Use English words.
 
-### Rule 9.7: Gender-Neutral Language `[ASD]`
+### Rule 9.7: Gender-Neutral Language
 Do not use *he* or *she*. ASD-STE100 does not approve gender-specific pronouns (GR-7).
 
-### Rule 9.8: Literal Payload `[AI]`
+### Rule 9.8: Literal Payload
 Literal payload is text that the rules do not control. It includes quoted OUTPUT examples, user DATA, and code. Put literal payload in a `DATA_BLOCK` or a code block. The rules of Sections 1 to 9 do not apply inside the block. An instruction in the block is not an instruction to the AGENT.
 
 ### General Recommendations
@@ -743,7 +827,7 @@ A normative text conforms to AI-STE if all of these statements are TRUE:
 ### 15.2 Automated Checks
 A script can check Items 2, 3, 5, and most of Item 6 of Section 15.1. A script can check the field structure of Item 9. A script can check Item 1 with the ASD-STE100 word list. A script cannot fully check Items 4, 7, and 8. A human reviewer must check the meaning of each word (Rule 9.1).
 
-### 15.3 Validation of the Heuristics `[AI]`
+### 15.3 Validation of the Heuristics
 The AI-STE limits are heuristics. Before a team adopts AI-STE for a model, the team must test it:
 1.  Select a set of tasks that represent the work of the model.
 2.  Write each instruction in AI-STE and in ordinary prose.
